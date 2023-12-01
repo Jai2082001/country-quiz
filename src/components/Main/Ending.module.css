@@ -1,0 +1,26 @@
+.parentDiv h2{
+    margin-top: 70px;
+    font-size: 40px;
+}
+.parentDiv p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.parentDiv button{
+    margin-top: 70px;
+    border: 1px solid rgba(29, 53, 93, 1);
+    border-radius: 7px;
+    color: rgba(29, 53, 93, 1);
+    padding: 10px 20px;
+}
+.parentDiv{
+    color: rgba(29, 53, 93, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.score{
+    color: rgba(111, 207, 151, 1);
+    font-size: 36px;
+}

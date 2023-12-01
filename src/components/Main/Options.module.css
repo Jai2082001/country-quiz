@@ -1,0 +1,45 @@
+.parentOptionDiv{
+    border: 2px solid rgba(96, 102, 208, 0.7);
+    border-radius: 7px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.parentOptionDiv:hover{
+    color: white;
+    background-color: rgba(249, 168, 38, 1);
+    border: 2px solid rgba(249, 168, 38, 1);
+}
+.correct{
+    animation: 0.3s animationCorrect ease-in-out;
+    animation-fill-mode: forwards;
+}
+.incorrect{
+    animation: 0.3s animationIncorrect ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes animationIncorrect{
+    from{
+        color: white;
+        background-color: rgba(249, 168, 38, 1);
+        border: 2px solid rgba(249, 168, 38, 1);        
+    }
+    to{
+        background-color: rgba(234, 130, 130, 1);
+        border: 2px solid rgba(234, 130, 130, 1);
+    }
+}
+
+@keyframes animationCorrect{
+    from{
+        color: white;
+        background-color: rgba(249, 168, 38, 1);
+        border: 2px solid rgba(249, 168, 38, 1);        
+    }
+    to{
+        background-color: rgba(96, 191, 136, 1);
+        border: rgba(96, 191, 136, 1);
+    
+    }
+}

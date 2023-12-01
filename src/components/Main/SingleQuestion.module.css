@@ -1,0 +1,18 @@
+.img{
+    max-width: 90px;
+}
+.questionDiv{
+    color: #2F527B;
+}
+.questionDiv p{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.questionDivImg{
+    color: #2F527B;
+}
+.questionDivImg p{
+    font-size: 24px;
+    font-weight: 700;
+}
